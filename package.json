@@ -11,5 +11,8 @@
         "url": "git+https://github.com/Melon-Development-ZUI/topgg-vote-reminder.git"
     },
     "author": "Lemon Rose",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^4.6.3"
+    }
 }
