@@ -4,7 +4,11 @@
     "description": "a webserver for melon's topgg vote reminder",
     "main": "",
     "scripts": {
-        "test": "breh"
+        "prebuild": "rm -rf ./prod",
+        "build": "tsc",
+        "lint": "eslint src --max-warnings=0",
+        "start": "node -r dotenv/config ./prod/index.js",
+        "test": "echo 'breh'"
     },
     "repository": {
         "type": "git",
