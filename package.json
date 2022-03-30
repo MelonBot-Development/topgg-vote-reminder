@@ -1,0 +1,15 @@
+{
+    "name": "topgg-vote-reminder",
+    "version": "0.1.0",
+    "description": "a webserver for melon's topgg vote reminder",
+    "main": "",
+    "scripts": {
+        "test": "breh"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Melon-Development-ZUI/topgg-vote-reminder.git"
+    },
+    "author": "Lemon Rose",
+    "license": "MIT"
+}
